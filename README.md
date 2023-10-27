@@ -1,2 +1,2 @@
-# princemiyigbena.github.io
-Prince MIYIGBENA Portfolio
+# prince-miyigbena
+My Portfolio

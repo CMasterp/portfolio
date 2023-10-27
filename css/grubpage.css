@@ -1,0 +1,61 @@
+/* Style de la page GrubPage */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Nixie One', cursive;
+    color: white;
+    text-align: center;
+}
+
+.grub-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.grub-header {
+    margin-top: 20px;
+}
+
+.grub-footer {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligner le contenu à gauche */
+    justify-content: flex-start; /* Aligner le contenu en haut */
+}
+
+.grub-footer h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grub-menu {
+    background-color: black;
+    border: 2px solid white;
+    width: calc(100% - 40px); /* Laisse 20px à gauche et à droite pour centrer */
+    height: 66.67%; /* 4/6 de la hauteur de la page */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligner le contenu à gauche */
+    justify-content: flex-start; /* Aligner le contenu en haut */
+    padding-top: 10px; /* Créer de l'espace en dessous de la bordure supérieure */
+}
+
+.menu-item {
+    font-size: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left; /* Aligner le contenu à gauche */
+}
+
+.selected {
+    background-color: #545454;
+    color: black;
+}
