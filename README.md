@@ -1,2 +1,0 @@
-# prince-miyigbena
-My Portfolio
