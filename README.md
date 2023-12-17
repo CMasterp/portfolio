@@ -40,6 +40,8 @@
   <a href="https://github.com/CMasterp"><img src="https://github-readme-stats.vercel.app/api?username=CMasterp&show_icons=true&theme=dracula&hide_border=true" alt="CMasterp's github stats"></a>
 </p>
 
+X-GNOME-Autostart-Condition=Delay;5;/usr/bin/xdotool search --sync --onlyvisible --name "Your Program Name" windowactivate
+
 <p align = "center">
     :technologist: I'm currently improving my Object Oriented Programming skills.
 </p>
