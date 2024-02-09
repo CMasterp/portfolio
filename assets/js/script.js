@@ -33,6 +33,10 @@ const dictionaryEN = {
   "navbar-resume-education-title3": "Catholic College Notre Dame de lourdes",
   "navbar-resume-education-description3": "Scientific Baccalaureate - Honours. (Porto-Novo, BENIN)",
   "navbar-resume-experience": "Experience",
+  "navbar-resume-experience-title0": "[BANQUE DE FRANCE] Fullstack Developer",
+  "navbar-resume-experience-date0": "MAR 2024 — AUG 2024 | Internship - Paris, France",
+  "navbar-resume-experience-description0": "Development of in-house software and implementation of automated systems",
+  "navbar-resume-experience-descriptionn0": "Skills: Software development - Angular 14 - Java - Spring",
   "navbar-resume-experience-title1": "[TAKER] Fullstack Developer",
   "navbar-resume-experience-date1": "JAN 2022 — Present | Freelance - Remote",
   "navbar-resume-experience-description1": "Participation in software implementation on customer projects",
@@ -125,10 +129,14 @@ const dictionaryFR = {
   "navbar-resume-education-title3": "Collège catholique Notre Dame de Lourdes",
   "navbar-resume-education-description3": "Baccalauréat scientifique - Mention très bien. (Porto-Novo, BÉNIN)",
   "navbar-resume-experience": "Expérience",
+  "navbar-resume-experience-title0": "[BANQUE DE FRANCE] Développeur Fullstack",
+  "navbar-resume-experience-date0": "MARS 2024 — AOÛT 2024 | Stage - Paris, France",
+  "navbar-resume-experience-description0": "Developpement de logiciels internes à l'entrperise et Mise en place d'automatismes",
+  "navbar-resume-experience-descriptionn0": "Skills: Développement de logiciels - Angular 14 - Java - Spring",
   "navbar-resume-experience-title1": "[TAKER] Développeur Fullstack",
   "navbar-resume-experience-date1": "JAN 2022 — Aujourd'hui | Freelance - À distance",
   "navbar-resume-experience-description1": "Participation à la mise en œuvre de logiciels sur des projets clients",
-  "navbar-resume-experience-descriptionn1": "Compétences : développement de logiciels - logiciels open source - React.js - Golang - C++",
+  "navbar-resume-experience-descriptionn1": "Compétences : Développement de logiciels - logiciels open source - React.js - Golang - C++",
   "navbar-resume-experience-title2": "[EXTIA] Consultant technique",
   "navbar-resume-experience-date2": "SEP 2023 — FÉV 2024 | Stage - Lille, France",
   "navbar-resume-experience-description2": "Assistance à la gestion et au développement de projets clients tels que la SNCF",
@@ -152,7 +160,7 @@ const dictionaryFR = {
   "navbar-resume-skills1": "Développement de logiciels",
   "navbar-resume-skills2": "Développement web",
   "navbar-resume-skills3": "Scripting et automatisation",
-  "navbar-resume-skills4": "Informatique en nuage",
+  "navbar-resume-skills4": "DevOps",
   "navbar-resume-portfolio": "Portfolio",
   "navbar-resume-select-category": "Sélectionner une catégorie",
   "navbar-resume-select-1": "Tout",
@@ -221,6 +229,10 @@ function updateTexts() {
   document.getElementById('navbar-resume-education-title3').textContent = dictionary['navbar-resume-education-title3'];
   document.getElementById('navbar-resume-education-description3').textContent = dictionary['navbar-resume-education-description3'];
   document.getElementById('navbar-resume-experience').textContent = dictionary['navbar-resume-experience'];
+  document.getElementById('navbar-resume-experience-title0').textContent = dictionary['navbar-resume-experience-title0'];
+  document.getElementById('navbar-resume-experience-date0').textContent = dictionary['navbar-resume-experience-date0'];
+  document.getElementById('navbar-resume-experience-description0').textContent = dictionary['navbar-resume-experience-description0'];
+  document.getElementById('navbar-resume-experience-descriptionn0').textContent = dictionary['navbar-resume-experience-descriptionn0'];
   document.getElementById('navbar-resume-experience-title1').textContent = dictionary['navbar-resume-experience-title1'];
   document.getElementById('navbar-resume-experience-date1').textContent = dictionary['navbar-resume-experience-date1'];
   document.getElementById('navbar-resume-experience-description1').textContent = dictionary['navbar-resume-experience-description1'];
